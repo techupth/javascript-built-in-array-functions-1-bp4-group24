@@ -10,3 +10,7 @@ function getAverageStudentScore(students) {
 }
 
 getAverageStudentScore(students); // Output: 87.5
+
+
+  let average = total/students.length;
+  console.log(average);

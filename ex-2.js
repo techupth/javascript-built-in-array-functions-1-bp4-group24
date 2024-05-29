@@ -1,9 +1,9 @@
-let words = ["apple", "cat", "dog", "elephant"];
+function get5CharWords(words){
+  if (words.length>=5){
+      return words;
+  };
+};
 
-function get5CharWords(words) {
-  // Start coding here
-}
-
-const result = get5CharWords(words);
-
-console.log(result); // Output: ["apple", "elephant"]
+let words =["apple","elephant","egg","ox"];
+let filterWords = words.filter(get5CharWords);
+console.log(filterWords);
